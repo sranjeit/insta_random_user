@@ -4,7 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 import accountInfoGenerator as account
 
-browser= webdriver.Chrome("C:\windows\chromedriver.exe")
+browser= webdriver.Chrome('/usr/bin/chromedriver')
 browser.get("http://www.instagram.com")
 time.sleep(8) #time.sleep count can be changed depending on the Internet speed.
 name = account.username()
